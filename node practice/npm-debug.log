@@ -1,0 +1,47 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'node', '/usr/local/bin/npm', 'install' ]
+2 info using npm@3.3.1
+3 info using node@v0.10.29
+4 verbose node symlink /usr/local/bin/node
+5 silly loadCurrentTree Starting
+6 silly install loadCurrentTree
+7 silly install readLocalPackageData
+8 silly install normalizeTree
+9 silly loadCurrentTree Finishing
+10 silly loadIdealTree Starting
+11 silly install loadIdealTree
+12 silly cloneCurrentTree Starting
+13 silly install cloneCurrentTreeToIdealTree
+14 silly cloneCurrentTree Finishing
+15 silly loadShrinkwrap Starting
+16 silly install loadShrinkwrap
+17 silly loadShrinkwrap Finishing
+18 silly loadAllDepsIntoIdealTree Starting
+19 silly install loadAllDepsIntoIdealTree
+20 silly loadAllDepsIntoIdealTree Finishing
+21 silly idealTree:prePrune /Users/elliottchavis/node/node practice
+22 silly loadIdealTree Finishing
+23 silly currentTree /Users/elliottchavis/node/node practice
+24 silly idealTree /Users/elliottchavis/node/node practice
+25 silly generateActionsToTake Starting
+26 silly install generateActionsToTake
+27 verbose stack Error: Invalid name: "node practice"
+27 verbose stack     at ensureValidName (/usr/local/lib/node_modules/npm/node_modules/normalize-package-data/lib/fixer.js:331:15)
+27 verbose stack     at Object.module.exports.fixNameField (/usr/local/lib/node_modules/npm/node_modules/normalize-package-data/lib/fixer.js:210:5)
+27 verbose stack     at /usr/local/lib/node_modules/npm/node_modules/normalize-package-data/lib/normalize.js:32:38
+27 verbose stack     at Array.forEach (native)
+27 verbose stack     at normalize (/usr/local/lib/node_modules/npm/node_modules/normalize-package-data/lib/normalize.js:31:15)
+27 verbose stack     at thenCheckTop (/usr/local/lib/node_modules/npm/lib/install/validate-tree.js:58:3)
+27 verbose stack     at Array.2 (/usr/local/lib/node_modules/npm/node_modules/slide/lib/bind-actor.js:15:8)
+27 verbose stack     at LOOP (/usr/local/lib/node_modules/npm/node_modules/slide/lib/chain.js:15:14)
+27 verbose stack     at /usr/local/lib/node_modules/npm/node_modules/slide/lib/chain.js:18:7
+27 verbose stack     at thenValidateAllPeerDeps (/usr/local/lib/node_modules/npm/lib/install/validate-tree.js:46:3)
+28 verbose cwd /Users/elliottchavis/node/node practice
+29 error Darwin 13.3.0
+30 error argv "node" "/usr/local/bin/npm" "install"
+31 error node v0.10.29
+32 error npm  v3.3.1
+33 error Invalid name: "node practice"
+34 error If you need help, you may report this error at:
+34 error     <https://github.com/npm/npm/issues>
+35 verbose exit [ 1, true ]
